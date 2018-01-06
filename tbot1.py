@@ -21,7 +21,7 @@ r = redis.from_url(os.environ.get("REDIS_URL"))
 # -*- coding: utf8 -*-
 import telebot
 from telebot import types
-token = "401753515:AAFGiRM961d9qxMQDoyroqBvaeqwh5CLjjw"
+
 bot = telebot.TeleBot(token)
 
 print(bot.get_me())
